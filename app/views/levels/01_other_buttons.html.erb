@@ -1,56 +1,122 @@
-<p>
-  <a href="https://bootstrap-levels.matchthetarget.com/levels/01_other_buttons" target="_blank">Target</a>
-</p>
-
-<!-- Write CSS in public/css/my_styles.css to make the following <a> tags look like buttons of various colors -->
-
-<p>
-  <a>Primary</a>
-</p>
-
-<p>
-  <a>Secondary</a>
-</p>
-
-<p>
-  <a>Success</a>
-</p>
-
-<p>
-  <a>Danger</a>
-</p>
-
-<p>
-  <a>Warning</a>
-</p>
-
-<p>
-  <a>Info</a>
-</p>
 
 
+<p><span class="base-button base-button-blue">Primary</span></p>
+<br>
+<p><span class="base-button base-button-gray">Secondary</span></p>
+<br>
+<p><span class="base-button base-button-green">Success</span></p>
+<br>
+<p><span class="base-button base-button-red">Danger</span></p>
+<br>
+<p><span class="base-button base-button-orange">Warning</span></p>
+<br>
+<p><span class="base-button base-button-cyan">Info</span></p>
+<br>
 <p>Less intrusive variants:</p>
+<br>
+<p><span class="base-button-outline base-button-outline-blue">Primary (unobtrusive)</span></p>
+<br>
+<p><span class="base-button-outline base-button-outline-gray">Secondary (unobtrusive)</span></p>
+<br>
+<p><span class="base-button-outline base-button-outline-green">Success (unobtrusive)</span></p>
+<br>
+<p><span class="base-button-outline base-button-outline-red">Danger (unobtrusive)</span></p>
+<br>
+<p><span class="base-button-outline base-button-outline-orange">Warning (unobtrusive)</span></p>
+<br>
+<p><span class="base-button-outline base-button-outline-cyan">Info (unobtrusive)</span></p>
 
-<p>
-  <a>Primary (unobtrusive)</a>
-</p>
+<style>
+  .base-button {
+      color: white;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 5px;
+      text-align: center;
+      
+      box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+      -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+      -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    }
 
-<p>
-  <a>Secondary (unobtrusive)</a>
-</p>
+    .base-button-blue { background-color: blue; }
+    .base-button-gray { background-color: gray; }
+    .base-button-green { background-color: green; }
+    .base-button-red { background-color: red; }
+    .base-button-orange { background-color: orange; }
+    .base-button-cyan { background-color: darkcyan; }
 
-<p>
-  <a>Success (unobtrusive)</a>
-</p>
+    .base-button-blue:hover {
+      background-color: darkblue;
+    }
 
-<p>
-  <a>Danger (unobtrusive)</a>
-</p>
+    .base-button-gray:hover {
+      background-color: darkgray;
+    }
 
-<p>
-  <a>Warning (unobtrusive)</a>
-</p>
+    .base-button-green:hover {
+      background-color: darkgreen;
+    }
 
-<p>
-  <a>Info (unobtrusive)</a>
-</p>
+    .base-button-red:hover {
+      background-color: darkred;
+    }
+
+    .base-button-orange:hover {
+      background-color: yellow;
+    }
+
+    .base-button-cyan:hover {
+      background-color: cyan;
+    }
+
+    .base-button-outline {
+      background-color: white;
+      border: 2px solid;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-radius: 5px;
+      text-align: center;
+    }
+    
+    .base-button-outline-blue { color: blue; border-color: blue; }
+    .base-button-outline-gray { color: gray; border-color: gray; }
+    .base-button-outline-green { color: green; border-color: green; }
+    .base-button-outline-red { color: red; border-color: red; }
+    .base-button-outline-orange { color: orange; border-color: orange; }
+    .base-button-outline-cyan { color: darkcyan; border-color: darkcyan; }
+
+    .base-button-outline-blue:hover {
+      color: white;
+      background-color: blue;
+    }
+
+    .base-button-outline-gray:hover {
+      color: white;
+      background-color: gray;
+    }
+
+    .base-button-outline-green:hover {
+      color: white;
+      background-color: green;
+    }
+
+    .base-button-outline-red:hover {
+      color: white;
+      background-color: red;
+    }  
+    
+    .base-button-outline-orange:hover {
+      color: white;
+      background-color: orange;
+    }
+
+    .base-button-outline-cyan:hover {
+      color: white;
+      background-color: darkcyan;
+    }
+</style>
