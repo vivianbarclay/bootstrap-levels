@@ -4,3 +4,26 @@
 
 <%# The below code creates an array of 10 random names %>
 <%= names = Array.new(10) { Faker::Name.unique.name  } %>
+
+<!--<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 offset-md-4">
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+            <span class="badge bg-primary rounded-pill">4</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+-->
+<div class="list-group">
+  <% names.each_with_index do |name, index| %>
+    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+      <%= name %>
+      <span class="badge bg-primary rounded-pill"><%= rand(0..9) %></span>
+    </a>
+  <% end %>
+</div>
