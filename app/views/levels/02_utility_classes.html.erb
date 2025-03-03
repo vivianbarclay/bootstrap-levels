@@ -1,9 +1,62 @@
 <p>
   <a href="https://bootstrap-levels.matchthetarget.com/levels/02_utility_classes" target="_blank">Target</a>
 </p>
+<body>
 
-<!-- Add utility classes and/or elements as needed to achieve the target appearance. -->
+<div class="d-flex justify-content-around mb-3">
+  <div class="mx-2 p-2 bg-primary text-white">First</div>
+  <div class="mx-2 p-2 bg-success text-white">Second</div>
+  <div class="mx-2 p-2 bg-danger text-white">Third</div>
+</div>
+<hr>
 
-<div>
+<div class="d-flex">
+  <div>
+    <span>Inbox</span>
+  </div>
+
+  <div class="ms-auto">
+    <span class="badge rounded-pill text-bg-danger">42</span>
+  </div>    
+</div>
+<hr>
+
+<div class="w-25 px-5 py-3 shadow text-end lh-lg opacity-75 border-start border-info">
   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ad debitis iste minima molestiae repellat magni? Voluptas, odit voluptate quasi esse ea iure quibusdam error at architecto veritatis, beatae nihil?
 </div>
+</body>
+
+<style>
+
+.text-end {
+  text-align: rigt !important;
+}  
+
+.lh-lg {
+  line-height: 2 !important;
+}
+
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.px-5 {
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+}
+
+.w-25 {
+  width: 25% !important;
+}
+
+.border-info {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-info-rgb), var(--bs-border-opacity)) !important;
+}
+
+.border-start {
+  border-left: var(--bs-border-width), var(--bs-border-style)) !important;
+}
+
+</style>
